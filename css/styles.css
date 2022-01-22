@@ -1,0 +1,114 @@
+/********************************Selector**************************************/
+
+
+body{
+  margin: 0;
+  background-color: hsl(217, 54%, 11%);
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Outfit', sans-serif;
+}
+
+p{
+  color: hsl(0, 0%, 100%);
+  text-align: left;
+
+}
+
+hr{
+  width: 88%;
+  border-top: none;
+  border-color: hsl(215, 32%, 27%);
+  margin: 20px auto 20px auto;
+}
+
+/********************************Class Selector**************************************/
+
+.main-container{
+  width: 280px;
+  height: 500px;
+  margin: 100px auto 0 auto;
+  border-radius: 10px;
+  background-color: hsl(216, 50%, 16%);
+
+}
+
+.title{
+  font-weight: 600;
+  margin: 20px auto 5px 15px;
+
+}
+
+.title-description{
+  color:  hsl(215, 51%, 70%);
+  font-size: 0.9375rem;
+  margin: 20px auto 20px 15px;
+
+}
+
+.price-time{
+  display: flex;
+  font-size: 0.9375rem;
+  margin: 5px auto 5px 15px;
+  width: 105%;
+}
+
+.attribution{
+  margin: 20px auto;
+  color: hsl(0, 0%, 100%);
+}
+
+.creation{
+  margin: 5px auto 5px 15px;
+}
+
+.span-price{
+  display: flex;
+  flex: 1;
+}
+
+.span-time{
+  display: flex;
+  flex: 1;
+}
+
+.price{
+  color: hsl(178, 100%, 50%);
+  margin-left: 7px;
+}
+
+.time{
+  color: hsl(215, 51%, 70%);
+  margin-left: 7px;
+}
+
+.by-created{
+  width: 100%;
+  display: flex;
+  font-size: 0.625rem;
+  align-items: center;
+}
+
+.creation{
+  color: hsl(215, 51%, 70%);
+}
+
+.creator{
+  color: hsl(0, 0%, 100%);
+}
+
+/*********************************IMG class Selector**************************/
+.img-equilibrium{
+  width: 250px;
+  height: 250px;
+  margin: 20px auto 0 auto;
+  border-radius: 10px;
+}
+
+.img-avatar{
+  margin-left: 15px;
+  width: 30px;
+  border:1px solid;
+  border-color: hsl(0, 0%, 100%);
+  border-radius: 30px;
+}
