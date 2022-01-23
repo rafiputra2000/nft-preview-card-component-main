@@ -1,5 +1,9 @@
 /********************************Selector**************************************/
-
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 body{
   margin: 0;
@@ -7,6 +11,8 @@ body{
   text-align: center;
   font-size: 18px;
   font-family: 'Outfit', sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 p{
@@ -24,42 +30,62 @@ hr{
 
 /********************************Class Selector**************************************/
 
+
 .main-container{
   width: 280px;
   height: 500px;
-  margin: 100px auto 0 auto;
+  padding: 24px;
   border-radius: 10px;
   background-color: hsl(216, 50%, 16%);
-
+  margin: 100px auto 20px auto;
 }
+
+.position-img-equilibrium{
+  position: relative;
+  opacity: 1;
+}
+
+.position-icon-view{
+    display: flex;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    inset: 0;
+    place-items: center;
+    place-content: center;
+    background: hsl(215, 32%, 27%);
+    border-radius: 10px;
+}
+
+.position-img-equilibrium:hover .position-icon-view{
+    opacity: 0.7;
+}
+
 
 .title{
   font-weight: 600;
-  margin: 20px auto 5px 15px;
-
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .title-description{
   color:  hsl(215, 51%, 70%);
   font-size: 0.9375rem;
-  margin: 20px auto 20px 15px;
-
 }
 
 .price-time{
   display: flex;
   font-size: 0.9375rem;
-  margin: 5px auto 5px 15px;
-  width: 105%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
 
 .attribution{
-  margin: 20px auto;
   color: hsl(0, 0%, 100%);
 }
 
 .creation{
-  margin: 5px auto 5px 15px;
 }
 
 .span-price{
@@ -70,6 +96,7 @@ hr{
 .span-time{
   display: flex;
   flex: 1;
+  margin-left: 22px;
 }
 
 .price{
@@ -83,7 +110,6 @@ hr{
 }
 
 .by-created{
-  width: 100%;
   display: flex;
   font-size: 0.625rem;
   align-items: center;
@@ -91,6 +117,7 @@ hr{
 
 .creation{
   color: hsl(215, 51%, 70%);
+  margin-left: 10px;
 }
 
 .creator{
@@ -99,14 +126,12 @@ hr{
 
 /*********************************IMG class Selector**************************/
 .img-equilibrium{
-  width: 250px;
+  width: 230px;
   height: 250px;
-  margin: 20px auto 0 auto;
   border-radius: 10px;
 }
 
 .img-avatar{
-  margin-left: 15px;
   width: 30px;
   border:1px solid;
   border-color: hsl(0, 0%, 100%);
